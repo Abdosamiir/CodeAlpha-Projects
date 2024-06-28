@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Music Player</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="player">
+        <img id="cover" src="image1.jpg" alt="Cover Image">
+        <audio id="audio"></audio>
+        <div class="controls">
+            <button id="playPauseBtn">Play</button>
+            <input type="range" id="seekBar" value="0" max="100">
+            <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+        </div>
+        <div class="file-inputs">
+            <input type="file" id="audioFile" accept="audio/*">
+            <input type="file" id="imageFile" accept="image/*">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="images/image1.jpg" alt="BY ORDER WITH THE PEAKY BLINDER" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/image2.jpg" alt="JOHN SNOW" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/image3.jpg" alt="WE ARE THE CHAMPIONS" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/image4.jpg" alt="HALA MADRID" />
+      </div>
+      <!-- Add more images as needed -->
+    </div>
+    <div id="modal" class="modal">
+      <span class="close">&times;</span>
+      <span class="arrow-right">&rArr;</span>
+      <span class="arrow-left" >&lArr;</span>
+      <img class="modal-content" id="modal-img" />
+      <div id="caption"></div>
+      
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
